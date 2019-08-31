@@ -21,14 +21,14 @@ The dataset contains 3577296 rows and 87 columns
 
 Number of null values in the dataset is 0
 
-![number of flows per connection]("https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/number-of-flows-per-connection.png")
+![number of flows per connection](https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/number-of-flows-per-connection.png)
 
 
 We can see that there are some connection with a high number of flows 
 
 The figure below will show the top 10 applications in the dataset
 
-![top-10-applications]("https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/top-10-applications.png")
+![top-10-applications](https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/top-10-applications.png)
 
 ## Data Preprocessing
 
@@ -103,8 +103,8 @@ The test accuracy is 0.6631679346653662
 
 Some classification samples
 
-![Predection for HTTP_PROXY]("https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/prediction-for-HTTP_PROXY.png")
-![Predection for SSL]("https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/prediction-for-SSL.png")
+![Predection for HTTP_PROXY](https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/prediction-for-HTTP_PROXY.png)
+![Predection for SSL](https://raw.githubusercontent.com/MohammadA7/ip-flow-analysis/master/docs/prediction-for-SSL.png)
 
 We can see in the above classification samples of our model, isn't that accurate all the time, the model needs some improvement.
 
