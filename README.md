@@ -7,7 +7,9 @@ The dataset can be found [here](https://www.kaggle.com/jsrojas/ip-network-traffi
 
 For more details go to the [project blog post](https://mohammada7.github.io/ip-flow-analysis/)
 
+## Motivation
 
+Considering that most of the network traffic classification datasets are aimed only at identifying the type of application an IP flow holds (WWW, DNS, FTP, P2P, Telnet,etc), this dataset goes a step further by generating machine learning models capable of detecting specific applications such as Facebook, YouTube, Instagram, etc, from IP flow statistics (currently 75 applications).
 
 ### Libraries used
 
@@ -17,10 +19,6 @@ For more details go to the [project blog post](https://mohammada7.github.io/ip-f
 * seaborn 0.9.0+
 * pandas 0.25.0+
 * matplotlib 3.1.0+
-
-## Motivation
-
-Considering that most of the network traffic classification datasets are aimed only at identifying the type of application an IP flow holds (WWW, DNS, FTP, P2P, Telnet,etc), this dataset goes a step further by generating machine learning models capable of detecting specific applications such as Facebook, YouTube, Instagram, etc, from IP flow statistics (currently 75 applications).
 
 ## Files
 

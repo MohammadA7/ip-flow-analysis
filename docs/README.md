@@ -9,6 +9,14 @@ The dataset can be found [here](https://www.kaggle.com/jsrojas/ip-network-traffi
 The number of cyber threats is growing constantly. They have become more sophisticated, precisely targeted and they can overcome traditional security solutions for data network perimeter. 
 Analyzing IP flows is an essential part of traffic measurement for cybersecurity, as IP flows gather information only from packet headers.
 
+## Motivation
+
+Considering that most of the network traffic classification datasets are aimed only at identifying the type of application an IP flow holds (WWW, DNS, FTP, P2P, Telnet,etc), this dataset goes a step further by generating machine learning models capable of detecting specific applications such as Facebook, YouTube, Instagram, etc, from IP flow statistics (currently 75 applications).
+
+## Metrics
+
+We will use accuracy as a metric for multiclass classification, it calculates how often predictions classes match labels.
+
 ## Exploratory Analysis
 
 The dataset contains 3577296 rows and 87 columns
